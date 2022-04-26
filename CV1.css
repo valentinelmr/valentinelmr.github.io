@@ -7,7 +7,7 @@ box-sizing: border-box;
 body {
 background: linear-gradient(rgb(50, 50, 50), rgb(200, 200, 200));
 z-index: 1;
-color: beige ;
+color: floralwhite;
 font-family: 'Times New Roman', 'Arial Narrow', Arial, sans-serif;
 font-size: 130%
 }
@@ -50,31 +50,36 @@ border-radius: 100%;
 width: 10%;
 }
 
-/* à propos de moi */
-
-#a_propos {
-width: 100%;
+/* LEFT COLUMN */
+.left-column{
+  grid-area: left-column;
+  padding: 50px;
+  background-color: #4472C4;
+  color: white;
 }
 
-/* formation */
-
-#formation {
-display: flex;
-width: 100%;
-height: 40vh;
-align-items: center;
-text-align: center;
+.portait{
+  border-radius: 50%;
+  max-width: 150px;
+  margin: auto;
+  display: block;
+  margin-bottom: 50px;
 }
 
-#formation div {
-display: flex;
-width: 30%;
-align-items: center;
-text-align: center;
+.skills{
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin: 0 0 1rem;
 }
 
-#texte_formation {
-margin-left: 5%;
-margin-right: 5%;
-font-size: 110%;
+/* RIGHT COLUMN */
+.right-column{
+  grid-area: right-column;
+  display: grid;
+  grid-template-rows: 250px 1fr;
+  grid-template-areas: 
+    "header"
+    "content";
 }
