@@ -1,6 +1,6 @@
 /* GENERAL */
 *{
-  margin: 0;
+  margin: 0px;
   box-sizing: border-box;
 }
 
@@ -9,6 +9,59 @@ body{
   font-weight: 300;
   font-size: .9rem;
   line-height: 1.5;
+  background-attachment: fixed;
+  background-image: url("bande.jpeg");
+}
+
+/* BANNIERE */
+#banhaut{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            width: 100%;
+            height: 150px;
+            padding: 0px;
+            margin-top: 10px;
+            }
+#banbas{
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            width: 100%;
+            height: 100px;
+            margin-top: 1500px;
+            margin-bottom: 100px;
+            }
+
+h1{
+    margin: 0 0 1rem;
+    font-size:  2.5rem;
+    margin-bottom: .5rem;
+    color: lightpink;
+}
+
+h2{
+    margin: 0 0 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: hotpink;
+    text-shadow: 6px 6px 6px mediumpurple;
+}
+
+h3{
+    margin:  0 0 1rem;
+    font-size: 1.5rem;
+    margin-bottom : .5rem;
+    font-family: Franklin Gothic Medium;
+    color: lightgrey;
+}
+
+h4{
+    margin:  0 0 1rem;
+    letter-spacing: 0.5px;
+    text-transorm:  uppercase;
+    color: lightpink;
 }
 
 a{
@@ -24,19 +77,6 @@ p{
   margin: 0 0 1rem;
 }
 
-h1{
-  margin: 0 0 1rem;
-  font-size: 2.5rem;
-  margin-bottom: .5rem;
-  color:  lightpink;
-}
-
-h2{
-  margin: 0 0 1rem;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
 .cv-container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -44,40 +84,54 @@ h2{
   width: 1200px;
   margin: 100px auto;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  background-color: #FEEED1;
 }
 
 .section{
   margin-bottom: 1.5rem;
 }
 
-/* IMAGE */
-img{
-  height: 20;
-  width: 20;
-}
-
 /* LEFT COLUMN */
 .left-column{
   grid-area: left-column;
   padding: 50px;
-  background-color: #4472C4;
+  background-color: lightpink;
   color: white;
 }
 
 .portait{
-  border-radius: 50%;
-  max-width: 150px;
-  margin: auto;
-  display: block;
-  margin-bottom: 50px;
+            border-radius: 15%; /*bords arrondis de la photo*/
+            max-width: 250px; /*taille de la photo*/
+            margin: auto; /*marge automatique centrée de la photo*/
+            display: block;
+            margin-bottom: 50px; /*marge par rapport au bas*/
+            }
+
+
+.information{
+      list-style-type: none;
+  padding: 0;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  margin: 0 0 1rem;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  box-shadow: 6px 6px 0px hotpink;
 }
 
 .skills{
   list-style-type: none;
   padding: 0;
   font-size: 1.1rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   margin: 0 0 1rem;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  box-shadow: 6px 6px 0px hotpink
 }
 
 /* RIGHT COLUMN */
@@ -94,41 +148,14 @@ img{
 .header{
   grid-area: header;
   padding: 50px;
-  background-color: #F2F2F2;
+  background-color: lightslategray;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
-.infos{
-  columns: 2;
-  list-style-type: none;
-  padding: 0;
-}
-
-/* FOOTER */
-.footer{
-  grid-area: header;
-  padding: 50px;
-  background-color: whitesmoke;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.infos{
-  columns: 2;
-  list-style-type: none;
-  padding: 0;
-}
-
 
 /* CONTENT */
 .content{
   grid-area: content;
   padding: 50px;
-}
-
-.experience-list{
-  list-style-type: circle;
 }
