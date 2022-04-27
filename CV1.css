@@ -5,15 +5,45 @@
 }
 
 body{
-  font-family: Roboto;
+  font-family: Times New Roman;
   font-weight: 300;
   font-size: .9rem;
   line-height: 1.5;
+  background-attachment: fixed;
+  background-image: url("blue.jpeg");
+}
+
+header {
+  height:400px;
+  background-image:url(images/docaposte.jpeg);
+  border:1px solid #CCC;
+  width:1000px;
+  margin:0px auto;
+  position: relative;
+}
+
+#header h1{
+  color:white;
+  text-align: center
+}
+
+h1{
+    margin: 0 0 1rem;
+    font-size:  2.5rem;
+    margin-bottom: .5rem;
+    color: lightpink;
+}
+
+h2{
+    margin: 0 0 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: purple;
 }
 
 a{
   text-decoration: none;
-  color: black;
+  color: #4472C4;
 }
 
 a:hover{
@@ -22,35 +52,6 @@ a:hover{
 
 p{
   margin: 0 0 1rem;
-}
-
-h1{
-  margin: 0 0 1rem;
-  font-size: 2.5rem;
-  margin-bottom: .5rem;
-  color:  lightpink;
-}
-
-h2{
-  margin: 0 0 1rem;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-.text-blue{
-  color: #4472C4;
-}
-
-.text-darkblue{
-  color: #002060;
-}
-
-.text-uppercase{
-  text-transform: uppercase; 
-}
-
-.icon{
-  margin-right: .5rem;
 }
 
 .cv-container{
@@ -70,7 +71,7 @@ h2{
 .left-column{
   grid-area: left-column;
   padding: 50px;
-  background-color: #4472C4;
+  background-color: lightpink;
   color: white;
 }
 
@@ -104,16 +105,10 @@ h2{
 .header{
   grid-area: header;
   padding: 50px;
-  background-color: #F2F2F2;
+  background-color: lightslategray;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.infos{
-  columns: 2;
-  list-style-type: none;
-  padding: 0;
 }
 
 /* CONTENT */
@@ -122,6 +117,10 @@ h2{
   padding: 50px;
 }
 
-.experience-list{
-  list-style-type: circle;
+/* FOOTER */
+#footer {
+   position:absolute;
+   bottom:0;  /* on le colle en bas */
+   width:100%;
+   height:100px;   /* Hauteur du pied de page */
 }
