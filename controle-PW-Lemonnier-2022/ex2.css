@@ -121,7 +121,7 @@ p{
   box-shadow: 6px 6px 0px hotpink;
 }
 
-.skills{
+.sommaire{
   list-style-type: none;
   padding: 0;
   font-size: 1.1rem;
@@ -131,7 +131,7 @@ p{
   border-right: 2px solid black;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-  box-shadow: 6px 6px 0px hotpink
+  box-shadow: 6px 6px 0px royalblue;
 }
 
 /* RIGHT COLUMN */
