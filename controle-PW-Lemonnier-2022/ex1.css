@@ -100,6 +100,8 @@
   border-width: 2px 0px 0px 0px;
   border-style: solid ;
   border-color: black;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .titre3{
@@ -114,7 +116,7 @@
   margin-top: 10px;
   margin-right: 10px;
   margin-left: 10px;
-  text-align: center;
+  text-align: justify;
   border-width: 1px;
   border-style: dotted;
   border-color: black;
@@ -123,7 +125,19 @@
   border-style: solid ;
   border-color: black;
   font-family: Times New Roman;
-}}
+}
+
+.box{
+  height: 100px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-right: 15%;
+  margin-left: 15%;
+  text-align: justify;
+  border-width: 1px;
+  border-style: dotted;
+  border-color: black;
+}
 
 /*DROITE*/
 .droite{
