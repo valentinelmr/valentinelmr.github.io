@@ -5,15 +5,16 @@
 }
 
 .contenubox{
-  display: grid;
+    display: flex;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "gauche centre droite"
   "bas";
-  width: 1000px;
+  width: 1500px;
+  height: 500px;
   margin: 10px auto;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   background-color: whitesmoke;
-  flex
+  
 }
 
 /*GAUCHE*/
@@ -60,14 +61,13 @@
 
 /*CENTRE*/
 .centre{
-  margin-left: -10px;
+  margin-left: 10px;
   margin-right: 20px;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 2px;
   width: 500px;
-  height: 450px;
+  height: 480px;
   float: center;
-  border-width: 3.5px 3.5px 3.5px 3.5px;
   border-style: dotted;
   border-color: black;
   background-color: #736F6F;
@@ -122,6 +122,7 @@
   margin-top: 10px;
   margin-right: 10px;
   margin-left: 10px;
+  margin-bottom: 10px;
   text-align: justify;
   border-width: 1px;
   border-style: dotted;
@@ -131,8 +132,7 @@
   border-style: solid ;
   border-color: black;
   font-family: Times New Roman;
-  line-height: 160%;
-  padding: 0 0px;
+  line-height: 100%;
 }
 
 .box{
@@ -153,16 +153,17 @@
 
 /*DROITE*/
 .droite{
-  margin-left: 10px;
+ margin-left: 10px;
   margin-right: 20px;
   margin-bottom: 10px;
   margin-top: 10px;
-  width: 200px;
-  height: 250px;
-  float: right;
-  border-width: 3px 3px 3px 1px
-  border-style: solid;
+  width: 250px;
+  height: 400px;
+  float: letf;
+  border-width: 3px 1px 3px 3px;
+  border-style: solid ;
   border-color: black;
+  padding: 0 10px;
   background-color: #D3CECD;
 }
 
@@ -194,11 +195,13 @@
 
 /*BAS*/
 .bas{
-  width: 100%;
-  height: 700;
+  width: 1000px;
+  height: 160px;
   float: bottom;
   border-width: 1px;
   border-style: solid;
   border-color: black;
   background-color: #D3CECD;
+  margin-left: 10em;
+
 }
