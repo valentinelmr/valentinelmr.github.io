@@ -10,15 +10,19 @@
   grid-template-areas: "gauche centre droite"
   "bas";
   width: 1200px;
-  margin: 100px auto;
+  margin: 10px auto;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   background-color: #FEEED1;
 }
 
 /*GAUCHE*/
 .gauche{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   width: 300px;
-  height: 500px;
+  height: 400px;
   float: letf;
   border-width: 3px 3px 3px 1px;
   border-style: solid ;
@@ -27,14 +31,15 @@
   background-color: lightgrey;
 }
 
-.Titre1{
-      margin: 0 0 1rem;
+.titre1{
+    margin: 0 0 1rem;
     font-size:  2.5rem;
     margin-bottom: .5rem;
     color: lightpink;
 }
 
-.Texte1{
+.texte1{
+  text-align: left;
   font-family: Times New Roman;
   font-weight: 300;
   font-size: .9rem;
@@ -43,9 +48,31 @@
 
 /*CENTRE*/
 .centre{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   width: 500px;
   height: 500px;
   float: center;
+  border-width: 1px;
+  border-style: dotted;
+  border-color: mediumpurple;
+  background-color: darkgrey;
+}
+
+.textehaut{
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: justify;
+  border-width: 1px;
+  border-style: solid;
+  border-color: mediumpurple;
+  background-color: darkgrey;
+}
+
+.textebas{
+  text-align: center;
   border-width: 1px;
   border-style: dotted;
   border-color: mediumpurple;
@@ -63,10 +90,14 @@
   background-color: lightgrey;
 }
 
+.texte2{
+  text-align: right;
+}
+
 /*BAS*/
 .bas{
-  width: 500px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   float: bottom;
   border-width: 1px;
   border-style: solid;
