@@ -45,6 +45,7 @@
     margin-bottom: .5rem;
     margin-top: 10px;
     color: black;
+    text-align: center;
 }
 
 .texte1{
@@ -164,20 +165,21 @@
 .titre4{
     border-width: 1px 3px 3px 1px;
     border-style: solid ;
-    border-color: lightgrey;
+    border-bottom-color: black;
+    border-right-color: black;
+    border-left-color: lightgrey;
+    border-top-color: lightgrey;
     padding: 0 10px;
     background-color: whitesmoke;
     margin: 0 0 1rem;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20px;
+    margin-right: 20px;
     font-size:  1rem;
     margin-bottom: 20px;
     margin-top: 20px;
     color: black;
-    width: 50%;
-    align-content: center;
+    width: content;
     text-align: center;
-}
 }
 
 /*BAS*/
