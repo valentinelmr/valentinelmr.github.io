@@ -28,7 +28,7 @@
   border-style: solid ;
   border-color: black;
   padding: 0 10px;
-  background-color: lightgrey;
+  background-color: #D3CECD;
 }
 
 .titre1{
@@ -67,7 +67,7 @@
   border-width: 3.5px 3.5px 3.5px 3.5px;
   border-style: dotted;
   border-color: black;
-  background-color: darkgrey;
+  background-color: #736F6F;
 }
 
 .titre2{
@@ -94,22 +94,24 @@
   text-align: justify;
   border-width: 1px;
   border-style: solid;
-  border-color: mediumpurple;
-  background-color: darkgrey;
+  border-color: black;
+  background-color: #BAB7B6;
   border-width: 2px 0px 0px 0px;
   border-style: solid ;
   border-color: black;
+  font-family: Times New Roman;
 }
 
 .textebas{
   text-align: center;
   border-width: 1px;
   border-style: dotted;
-  border-color: mediumpurple;
-  background-color: darkgrey;
+  border-color: black;
+  background-color: #BAB7B6;
   border-width: 0px 0px 2px 0px;
   border-style: solid ;
   border-color: black;
+  font-family: Times New Roman;
 }}
 
 /*DROITE*/
@@ -123,12 +125,13 @@
   float: right;
   border-width: 3px 3px 3px 1px
   border-style: solid;
-  border-color: greenyellow;
-  background-color: lightgrey;
+  border-color: black;
+  background-color: #D3CECD;
 }
 
 .texte2{
   text-align: right;
+  font-family: Times New Roman;
 }
 
 /*BAS*/
@@ -138,6 +141,6 @@
   float: bottom;
   border-width: 1px;
   border-style: solid;
-  border-color: blue;
-  background-color: lightgrey;
+  border-color: black;
+  background-color: #D3CECD;
 }
