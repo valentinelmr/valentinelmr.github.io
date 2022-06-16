@@ -91,6 +91,8 @@
 .textehaut{
   margin-bottom: 50px;
   margin-top: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
   text-align: justify;
   font-family: Times New Roman;
   border-width: 1px;
@@ -146,7 +148,7 @@
   margin-bottom: 10px;
   margin-top: 10px;
   width: 200px;
-  height: 200px;
+  height: 250px;
   float: right;
   border-width: 3px 3px 3px 1px
   border-style: solid;
@@ -157,6 +159,25 @@
 .texte2{
   text-align: right;
   font-family: Times New Roman;
+}
+
+.titre4{
+    border-width: 1px 3px 3px 1px;
+    border-style: solid ;
+    border-color: lightgrey;
+    padding: 0 10px;
+    background-color: whitesmoke;
+    margin: 0 0 1rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size:  1rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: black;
+    width: 50%;
+    align-content: center;
+    text-align: center;
+}
 }
 
 /*BAS*/
