@@ -95,7 +95,7 @@ p{
 .left-column{
   grid-area: left-column;
   padding: 50px;
-  background-color: lightpink;
+  background-color: lightskyblue;
   color: white;
 }
 
