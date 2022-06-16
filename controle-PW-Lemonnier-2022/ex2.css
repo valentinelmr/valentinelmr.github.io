@@ -3,3 +3,159 @@
   margin: 0px;
   box-sizing: border-box;
 }
+
+body{
+  font-family: Times New Roman;
+  font-weight: 300;
+  font-size: .9rem;
+  line-height: 1.5;
+  background-attachment: fixed;
+  background-image: url("bande.jpeg");
+}
+
+/* BANNIERE */
+#banhaut{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            width: 100%;
+            height: 150px;
+            padding: 0px;
+            margin-top: 10px;
+            }
+#banbas{
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            width: 100%;
+            height: 100px;
+            margin-top: 1530px;
+            margin-bottom: 100px;
+            }
+
+h1{
+    margin: 0 0 1rem;
+    font-size:  2.5rem;
+    margin-bottom: .5rem;
+    color: lightpink;
+}
+
+h2{
+    margin: 0 0 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: hotpink;
+    text-shadow: 6px 6px 6px mediumpurple;
+}
+
+h3{
+    margin:  0 0 1rem;
+    font-size: 1.5rem;
+    margin-bottom : .5rem;
+    font-family: Franklin Gothic Medium;
+    color: lightgrey;
+}
+
+h4{
+    margin:  0 0 1rem;
+    letter-spacing: 0.5px;
+    text-transorm:  uppercase;
+    color: lightpink;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+p{
+  margin: 0 0 1rem;
+}
+
+.cv-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "left-column right-column right-column";
+  width: 1200px;
+  margin: 100px auto;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  background-color: #FEEED1;
+}
+
+.section{
+  margin-bottom: 1.5rem;
+}
+
+/* LEFT COLUMN */
+.left-column{
+  grid-area: left-column;
+  padding: 50px;
+  background-color: lightpink;
+  color: white;
+}
+
+.portait{
+            border-radius: 15%; /*bords arrondis de la photo*/
+            max-width: 250px; /*taille de la photo*/
+            margin: auto; /*marge automatique centrée de la photo*/
+            display: block;
+            margin-bottom: 50px; /*marge par rapport au bas*/
+            }
+
+
+.information{
+      list-style-type: none;
+  padding: 0;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  margin: 0 0 1rem;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  box-shadow: 6px 6px 0px hotpink;
+}
+
+.skills{
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  margin: 0 0 1rem;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  box-shadow: 6px 6px 0px hotpink
+}
+
+/* RIGHT COLUMN */
+.right-column{
+  grid-area: right-column;
+  display: grid;
+  grid-template-rows: 250px 1fr;
+  grid-template-areas: 
+    "header"
+    "content";
+}
+
+/* HEADER */
+.header{
+  grid-area: header;
+  padding: 50px;
+  background-color: lightslategray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* CONTENT */
+.content{
+  grid-area: content;
+  padding: 50px;
+}
