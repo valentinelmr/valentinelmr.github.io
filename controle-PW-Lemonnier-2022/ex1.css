@@ -4,40 +4,6 @@
   box-sizing: border-box;
 }
 
-/* TITRE */
-.Titre1{
-  text-align: center;
-}
-
-.Titre2{
-  text-align: center;
-  text-decoration-color: black;
-}
-
-.Titre3{
-  text-align: left;
-}
-
-.Titre4{
-  text-align: center;
-}
-
-.Titre5{
-  text-align: center;
-}
-
-/*TEXTES*/
-.texte1
-
-.textehaut
-
-.textebas
-
-.texte2
-
-.texte3
-
-/* BOITES DE TEXTES */
 .contenubox{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -49,22 +15,11 @@
   background-color: #FEEED1;
 }
 
-.cotegauche{
-  grid-area: sd;
-}
-
-.cotedroite{
-  grid-area: aside;
-}
-
-.footer{
-  grid-area: ft;
-}
-
+/*GAUCHE*/
 .gauche{
   width: 200px;
   height: 500px;
-  grid-area: "cotegauche";
+  float: letf;
   border-width: 3px 3px 3px 1px;
   border-style: solid ;
   border-color: hotpink;
@@ -72,30 +27,33 @@
   background-color: lightgrey;
 }
 
+/*CENTRE*/
 .centre{
-  width: 200px;
+  width: 500px;
   height: 500px;
+  float: center;
   border-width: 1px;
   border-style: dotted;
   border-color: mediumpurple;
   background-color: darkgrey;
 }
 
+/*DROITE*/
 .droite{
   width: 200px;
   height: 500px;
-  grid-area: "cotedroite";
+  float: right;
   border-width: 1px;
   border-style: solid;
   border-color: greenyellow;
   background-color: lightgrey;
 }
 
-
+/*BAS*/
 .bas{
   width: 200px;
   height: 500px;
-  grid-area: "footer";
+  float: bottom;
   border-width: 1px;
   border-style: solid;
   border-color: blue;
