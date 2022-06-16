@@ -17,7 +17,7 @@
 
 /*GAUCHE*/
 .gauche{
-  width: 200px;
+  width: 300px;
   height: 500px;
   float: letf;
   border-width: 3px 3px 3px 1px;
@@ -25,6 +25,20 @@
   border-color: hotpink;
   padding: 0 10px;
   background-color: lightgrey;
+}
+
+.Titre1{
+      margin: 0 0 1rem;
+    font-size:  2.5rem;
+    margin-bottom: .5rem;
+    color: lightpink;
+}
+
+.Texte1{
+  font-family: Times New Roman;
+  font-weight: 300;
+  font-size: .9rem;
+  line-height: 1.5;
 }
 
 /*CENTRE*/
@@ -41,7 +55,7 @@
 /*DROITE*/
 .droite{
   width: 200px;
-  height: 500px;
+  height: 200px;
   float: right;
   border-width: 1px;
   border-style: solid;
@@ -51,8 +65,8 @@
 
 /*BAS*/
 .bas{
-  width: 200px;
-  height: 500px;
+  width: 500px;
+  height: 200px;
   float: bottom;
   border-width: 1px;
   border-style: solid;
