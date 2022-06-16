@@ -17,8 +17,6 @@ h1{
   border-bottom: 2px solid black;
 }
 
-
-
 /* ENCADREMENT */
 box1 {
   list-style-type: none;
@@ -32,8 +30,19 @@ box1 {
   border-bottom: 2px solid black;
 }
 
-box2
-shadowbox {
+box2{
+    list-style-type: none;
+  padding: 0;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  margin: 0 0 1rem;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+darkgreybox {
   width: 15em;
   border: 1px solid #333;
   box-shadow: 8px 8px 5px #444;
