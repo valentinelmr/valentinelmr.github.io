@@ -46,7 +46,7 @@ h2{
     letter-spacing: 1px;
     text-transform: uppercase;
     color: lightskyblue;
-    text-shadow: 6px 6px 6px mediumpurple;
+    text-shadow: 6px 6px 6px lightblue;
 }
 
 h3{
@@ -54,7 +54,7 @@ h3{
     font-size: 1.5rem;
     margin-bottom : .5rem;
     font-family: Franklin Gothic Medium;
-    color: lightgrey;
+    color: darkblue;
 }
 
 h4{
