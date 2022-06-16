@@ -15,33 +15,35 @@ h1{
   border-right: 2px solid black;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
+  background-color: whitesmoke;
 }
 
 /* BOITES DE TEXTES */
-gauche {
+.gauche{
   border-width: 3px 3px 3px 1px;
-  border-style: solid dotted;
-  border-color: black;
+  border-style: solid ;
+  border-color: hotpink;
   padding: 0 10px;
+  background-color: lightgrey;
 }
 
-centre{
+.centre{
   border-width: 1px;
   border-style: dotted;
-  border-color: black;
+  border-color: mediumpurple;
+  background-color: darkgrey;
 }
 
-droite{
+.droite{
   border-width: 1px;
-  border-style: dotted;
-  border-color: black;
+  border-style: solid;
+  border-color: greenyellow;
+  background-color: lightgrey;
 }
 
-darkgreybox {
-  width: 15em;
-  border: 1px solid #333;
-  box-shadow: 8px 8px 5px #444;
-  padding: 8px 12px;
-  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+.bas{
+border-width: 1px;
+  border-style: solid;
+  border-color: blue;
+  background-color: lightgrey;
 }
-
