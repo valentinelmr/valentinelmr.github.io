@@ -5,21 +5,66 @@
 }
 
 /* TITRE */
-h1{
-  margin: 0 0 1rem;
-  font-size:  2.5rem;
-  margin-bottom: .5rem;
-  color: black;
-  margin: 0 0 1rem;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  background-color: whitesmoke;
+.Titre1{
+  text-align: center;
 }
 
+.Titre2{
+  text-align: center;
+  text-decoration-color: black;
+}
+
+.Titre3{
+  text-align: left;
+}
+
+.Titre4{
+  text-align: center;
+}
+
+.Titre5{
+  text-align: center;
+}
+
+/*TEXTES*/
+.texte1
+
+.textehaut
+
+.textebas
+
+.texte2
+
+.texte3
+
 /* BOITES DE TEXTES */
+.contenubox{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "gauche centre droite"
+  "bas";
+  width: 1200px;
+  margin: 100px auto;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  background-color: #FEEED1;
+}
+
+.cotegauche{
+  grid-area: sd;
+}
+
+.cotedroite{
+  grid-area: aside;
+}
+
+.footer{
+  grid-area: ft;
+}
+
 .gauche{
+  width: 200px;
+  height: 500px;
+  grid-area: "cotegauche";
   border-width: 3px 3px 3px 1px;
   border-style: solid ;
   border-color: hotpink;
@@ -28,6 +73,8 @@ h1{
 }
 
 .centre{
+  width: 200px;
+  height: 500px;
   border-width: 1px;
   border-style: dotted;
   border-color: mediumpurple;
@@ -35,14 +82,21 @@ h1{
 }
 
 .droite{
+  width: 200px;
+  height: 500px;
+  grid-area: "cotedroite";
   border-width: 1px;
   border-style: solid;
   border-color: greenyellow;
   background-color: lightgrey;
 }
 
+
 .bas{
-border-width: 1px;
+  width: 200px;
+  height: 500px;
+  grid-area: "footer";
+  border-width: 1px;
   border-style: solid;
   border-color: blue;
   background-color: lightgrey;
