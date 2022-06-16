@@ -9,12 +9,10 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "gauche centre droite"
   "bas";
-  width: 1500px;
+  width: 1000px;
   height: 500px;
   margin: 10px auto;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  background-color: whitesmoke;
-}
+  }
 
 /*GAUCHE*/
 .gauche{
@@ -204,7 +202,7 @@
   border-top-color: lightgrey;
   border-style: solid;
   background-color: #D3CECD;
-  margin-left: 10em;
+  margin-left: 21.5em;
 }
 
 .texte3{
